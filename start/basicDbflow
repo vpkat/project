@@ -1,0 +1,41 @@
+
+Databases
+
+=>User flow
+  1. user
+     field =>
+            1.id
+            2.password
+	    3.email
+	    4.role(enum type STUDENT,ADMIN,FACULTY)
+  2.academic
+      field =>
+            1.id
+            2.password
+	    3.email
+	    4.role(enum type STUDENT)
+            5.name
+	    6.course(enum DAC,DBDA,DMC)
+	    7.10 , 12 ,Engg marks
+	    8.project name
+	    9.passout year
+	    10.gap
+  3.result
+      field =>
+            1.eid
+            2.marks
+	    3.subject name
+	    4.uid(Mapped by id)
+
+=>Faculty flow
+    3.faculty
+      field =>
+            1.id
+            2.password
+	    3.email
+	    4.role(enum type STUDENT)
+            5.name
+	    6.education details
+            7.Notice in blob
+
+

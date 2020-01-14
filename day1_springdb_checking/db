@@ -1,0 +1,55 @@
+Database:project_db1
+
+drop database project_db1;
+create database project_db1;
+use project_db1;
+
+
+
+
+------------------------------------------------
+
+Table:users
+
+ insert into users values(default,"DAC","vivekpatil824@gmail.com","Vivek","123","STUDENT");
+ insert into users values(default,"DBDA","yashchauhan@gmail.com","Yash","123","STUDENT");
+
+insert into users values(default,"DAC","omkar@gmail","Omkar","123","FACULTY");
+
+insert into users values(default,"ALL","vpkat@gmail.com","vpkat","123","ADMIN");
+
+
+
+
+--------------------------------------------------
+
+Table:address
+
+insert into address values(default,"7507215657","OBAD","INDIA","MH",1);
+insert into address values(default,"9158267265","PUNE","INDIA","MH",2);
+insert into address values(default,"9191225454","SATARA","INDIA","MH",3);
+insert into address values(default,"9191225455","PUNE","INDIA","MH",4);
+
+
+
+-----------------------------------------
+
+Table:faculty
+
+insert into faculty values(default,"ME MECH",3);
+
+
+------------------------------------------------------
+
+Table:student_info
+
+insert into student_info values(default,1,"Computer",69.69,"2019-4-12","Sherlocks Eye using Machine Learning",88.55,2);
+insert into student_info values(default,0,"Mechanical",89.69,"2019-4-12","Valve Lapping Machine",98.55,1);
+
+----------------------------------------------------------------------------------------------------------------
+Table: notice
+
+insert into notice values (default,"ALL","Tommorow is going to be Holiday!!!","GENERAL",4);
+insert into notice values (default,"DAC","Tommorow is going to be Holiday for DAC!!!","DAILY",4);
+insert into notice values (default,"DBDA","Tommorow is going to be Holiday for DBDA!!!","DAILY",4);
+
